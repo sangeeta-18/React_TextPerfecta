@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Fuggles&family=Kalam&family=Pacifico&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=Wellfleet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+}
+.container h1{
+  font-family: 'Castoro', serif;
+}
+.container h2{
+  font-family: 'Castoro', serif;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+li{
+  color: red;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0b7585;
+  --bs-btn-border-color: #0de5fd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0bb5d7;
+  --bs-btn-hover-border-color: #0abdca;
+  --bs-btn-focus-shadow-rgb:49, 229, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #07829b;
+  --bs-btn-active-border-color: #0aa0be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0df5fd;
+  --bs-btn-disabled-border-color: rgb(21, 146, 171);
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+}
+
+/* .btn-primary:hover{
+  color: #fff;
+  background-color: #0b7585;
+  border-color: #0de5fd;
+}
+
+.btn-primary:focus{
+  box-shadow:rgb(49, 233, 253) ;
+  
+
+}
+
+.btn-primary:active{
+  color: #fff;
+  background-color: #0aa7ca;
+  border-color: #0ab2be;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-primary:disabled{
+  color: #fff;
+  background-color: #0dd5fd;
+  border-color: #0dddfd;
+
+} */
+
+
+
+
+.btn:hover{
+  color: #fff;
+  background-color: #0d7381;
+  border-color: #2799c0;
+}
+.btn:focus{
+  box-shadow:rgb(44, 169, 197);
+  /* box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5); */
+}
+.btn:active{
+  color: #fff;
+  background-color: #16b3bb;
+  border-color: #2799c0;
+  box-shadow: inset 0 3px 5px rgba(26, 174, 200, 0.467);
+  /* box-shadow: inset 0 3px 5px rgb(6, 68, 78),  */
+}
+.btn:disabled{
+  color: #fff;
+  background-color: #076774;
+  border-color: #2799c0;
+  /* opacity: 0.65; */
+}
+.btn{
+  font-family: 'Castoro', serif;
+  color: #fff;
+  
+  background-color: #076774;
+  border-color: #2799c0;
+  border: 1px solid #0ddefd;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+  
+  
+}
+
+
+.form-check-input:checked {
+  background-color: #23a4a8;
+  border-color: #0df1fd;
+}
+.form-check-input:focus {
+  border-color: #86e6fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 217, 253, 0.25);
+}
